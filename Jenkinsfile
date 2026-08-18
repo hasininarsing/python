@@ -8,7 +8,7 @@ pipeline{
   }
 stage('Run'){
   steps{
-    sh 'python subtraction'
+    sh 'python3 subtraction.py'
   }
 }
 }
